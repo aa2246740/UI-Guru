@@ -1,4 +1,4 @@
-# Claude UI Design System Skill
+# UI-Guru
 
 <div align="center">
 
@@ -15,9 +15,7 @@
 
 ## ✨ 简介
 
-**ui-design-system** 是一个专门为 Claude Code 打造的 skill（技能），它提供了一套完整的 UI 设计系统生成方法论。
-
-不同于固定的组件模板库，它教 AI 如何根据产品定位和用户需求做出合适的设计选择。
+**UI-Guru** 是一个为 Claude Code 打造的 skill（技能），它提供了一套完整的 UI 设计系统生成方法论。不同于固定的组件模板库，它教 AI 如何根据产品定位和用户需求做出合适的设计选择。
 
 ### 核心特性
 
@@ -44,7 +42,7 @@
 
 ### 方式一：手动安装
 
-1. 下载 `ui-design-system.skill` 文件
+1. 下载 `UI-Guru.skill` 文件
 2. 将文件复制到 Claude Code 的 skills 目录：
    - **macOS**: `~/.claude/skills/`
    - **Windows**: `%USERPROFILE%\.claude\skills\`
@@ -54,14 +52,10 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/claude-ui-design-system-skill.git
+git clone https://github.com/aa2246740/UI-Guru.git
 
-# 打包 skill
-cd claude-ui-design-system-skill
-zip -r ui-design-system.skill ui-design-system/
-
-# 复制到 skills 目录
-cp ui-design-system.skill ~/.claude/skills/
+# Skill 文件已在仓库根目录，直接复制即可
+cp UI-Guru.skill ~/.claude/skills/
 ```
 
 ---
@@ -73,7 +67,7 @@ cp ui-design-system.skill ~/.claude/skills/
 在对话中直接调用 skill：
 
 ```
-使用 ui-design-system skill 为我设计一个 [产品类型] 的 UI 系统
+使用 UI-Guru skill 为我设计一个 [产品类型] 的 UI 系统
 
 需求文档：/path/to/requirements.md
 ```
@@ -81,7 +75,7 @@ cp ui-design-system.skill ~/.claude/skills/
 ### 示例：企业运营平台设计
 
 ```markdown
-请使用 ui-design-system skill，根据以下需求文档设计企业运营平台：
+请使用 UI-Guru skill，根据以下需求文档设计企业运营平台：
 
 需求：
 - 产品类型：B2B 后台管理系统
@@ -130,17 +124,22 @@ cp ui-design-system.skill ~/.claude/skills/
 ## 🏗️ 项目结构
 
 ```
-ui-design-system/
-├── SKILL.md                    # Skill 主文件
-├── references/                 # 参考文档
-│   ├── design-thinking.md      # 设计思维指南
-│   ├── component-patterns.md   # 组件设计模式
-│   ├── workflow.md             # 完整设计流程
-│   ├── color-theory.md         # 配色理论
-│   └── output-formats.md       # 输出格式规范
-└── assets/examples/            # 示例资源
-    ├── layout-patterns.md      # 布局模式示例
-    └── color-palettes.md       # 配色方案示例
+UI-Guru/
+├── UI-Guru.skill              # Skill 文件（可直接下载使用）
+├── UI-Guru-skill/             # Skill 源码目录
+│   ├── SKILL.md               # Skill 主文件
+│   ├── references/            # 参考文档
+│   │   ├── design-thinking.md      # 设计思维指南
+│   │   ├── component-patterns.md   # 组件设计模式
+│   │   ├── workflow.md             # 完整设计流程
+│   │   ├── color-theory.md         # 配色理论
+│   │   └── output-formats.md       # 输出格式规范
+│   └── assets/examples/        # 示例资源
+│       ├── layout-patterns.md      # 布局模式示例
+│       └── color-palettes.md       # 配色方案示例
+├── README.md                  # 项目说明
+├── PROJECT.md                 # 项目文档（Claude Code 使用）
+└── LICENSE                    # MIT 许可证
 ```
 
 ---
@@ -178,8 +177,8 @@ ui-design-system/
 
 ## 📮 联系方式
 
-- **Issues**: [GitHub Issues](https://github.com/your-username/claude-ui-design-system-skill/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/claude-ui-design-system-skill/discussions)
+- **Issues**: [GitHub Issues](https://github.com/aa2246740/UI-Guru/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/aa2246740/UI-Guru/discussions)
 
 ---
 
